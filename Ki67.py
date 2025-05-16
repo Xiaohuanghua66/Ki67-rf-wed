@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the trained model
-model = joblib.load('XGBoost.pkl')  # 加载训练好的XGBoost模型
+model = joblib.load('RandomForestClassifier_best_model.pkl')  # 加载训练好的XGBoost模型
 # Define feature options
 location_options = {
     1: 'Right upper lobe (1)',
